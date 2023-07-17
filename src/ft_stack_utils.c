@@ -19,7 +19,7 @@ int	ft_test_duplicates(t_node *stack, int size)
 	tmp = stack;
 	tmp = tmp->next;
 	size--;
-	while (size > 1)
+	while (size > 0)
 	{
 		while (tmp != stack)
 		{
