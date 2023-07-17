@@ -75,8 +75,10 @@ int	ft_validate_arg(char *str)
 			i++;
 			size++;
 		}
-		else
+		else if (str[i] == '\0')
 			size++;
+		else
+			return (-1);			
 	}
 	return (size);
 }
