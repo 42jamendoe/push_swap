@@ -111,7 +111,7 @@ int	ft_count_node_stack(t_node *stack)
 	int		i;
 
 	if (!stack)
-		reurn (0);
+		return (0);
 	tmp = stack;
 	tmp = tmp->next;
 	i = 1;
